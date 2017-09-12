@@ -1,0 +1,295 @@
+html {
+	box-sizing: border-box
+}
+
+*, *:before, *:after {
+	box-sizing: inherit
+}
+
+html, body {
+	font-size: 15px;
+	line-height: 1.5
+}
+
+h1 {
+	font-size: 36px
+}
+
+h2 {
+	font-size: 30px
+}
+
+h3 {
+	font-size: 24px
+}
+
+h4 {
+	font-size: 20px
+}
+
+h5 {
+	font-size: 18px
+}
+
+h6 {
+	font-size: 16px
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin: 10px 0
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif
+}
+
+img {
+	width: 100%
+}
+
+.height-50{
+	height: 50px	
+}
+
+
+table {
+	border-collapse: collapse;
+	margin-top: 2em;
+	margin-left: 20%;
+	border-right: 2px solid #FFFFFF;
+	border-left: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+	width: 60%;
+	box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 1px 2px 10px 0
+		rgba(0, 0, 0, 0.12)
+}
+
+td {
+	text-align: left;
+	padding: 8px;
+}
+
+.right-parking-spot {
+	width: 20%;
+	border-top: 2px solid #FFFFFF;
+	text-align: right;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.right-parking-spot .tooltiptext {
+	visibility: hidden;
+	width: 150px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: -28px;
+	left: 110%;
+}
+
+.right-parking-spot .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent black transparent transparent;
+}
+
+.right-parking-spot:hover {
+	opacity: 0.6;
+}
+
+.right-parking-spot:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1.0;
+}
+
+.left-parking-spot {
+	width: 20%;
+	border-top: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.left-parking-spot .tooltiptext {
+	visibility: hidden;
+	width: 150px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: -28px;
+	right: 110%;
+	
+}
+
+.left-parking-spot .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent black;
+}
+
+.left-parking-spot:hover {
+	opacity: 0.6;
+}
+
+.left-parking-spot:hover .tooltiptext {
+	visibility: visible;
+}
+
+.drive-way {
+	width: 29%;
+	background-image: url(../image/road-texture1.jpg);
+}
+
+.divider {
+	width: 2%;
+	background-color: linear-gradient(#804000, #FFFFFF, #804000);
+	background: linear-gradient(#804000, #FFFFFF, #804000);
+}
+
+.free-spot {
+	background-color: #23A817
+}
+
+.taken-spot {
+	background-color: #EA0909
+}
+
+.to-be-free-spot {
+	background-color: #FF8300
+}
+
+.header-style {
+	width: 90%;
+	max-width: 1400px;
+	margin-left: 5%
+}
+
+.header-text{
+	margin-top:-90px; 
+	color: #33ff33;
+	font-size: 45px;
+	font-style: oblique;
+}
+
+
+.top-nav-bar {
+	left: 0;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+	color: #000;
+	background-color: #fff;
+	letter-spacing: 6px;
+	padding: 20px 20px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12)
+}
+
+.right-float {
+	float: right
+}
+
+.nav-link {
+	color: inherit;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 10px;
+	cursor: pointer;
+}
+
+.strong-text {
+	font-weight: bold
+}
+
+.nav-link:hover {
+	color: #000;
+	background-color: #ccc
+}
+
+.left-column-floor-desc {
+	float: left;
+	width: 50%;
+}
+
+.right-column-floor-map {
+	float: left;
+	width: 50%;
+}
+
+.clear-both {
+	clear: both
+}
+
+.body {
+	color: #000;
+	background-color: #f1f1f1
+}
+
+.content {
+	width: 90.5%;
+	margin-left: 4.5%
+}
+
+.grid-style {
+	padding: 0 8px
+}
+
+.column {
+	float: left;
+	width: 100%
+}
+
+.info-container {
+	padding: 0.01em 16px
+}
+
+.floor-container {
+	padding: 4em 2em;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+	color: #000;
+	background: linear-gradient(to top left, #e1eced, white);
+	margin-bottom: 16px
+}
+
+.grey-text {
+	color: #757575
+}
+
+.payment-button {
+	background: linear-gradient(to bottom right, #173518, #cae8cb);
+	border: 1px solid #FFFFFF;
+	border-radius: 12px;
+	padding: 2px 10px;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
