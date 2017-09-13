@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <head>
 <title>SG Parking</title>
-
+   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 <link rel="stylesheet" href="css/parkinglot.css">
-
-<body class="body">
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+        </header>
+      
+    <section>
 	<div class="top-nav-bar">
 
 		<a href="#" class="nav-link strong-text" title="Go to the top">SG
-			Parking</a> <a href="#" class="nav-link help-link"
+			Parking</a>
+        <a href="#how-to-use" class="nav-link help-link"
 			title="Hover for instructions">How to Use</a>
 		<div class="right-float">
 			<a href="#first-floor" class="nav-link" title="Go to Floor 1 map">Floor
@@ -18,14 +25,20 @@
 		</div>
 
 	</div>
-	<div class="header-style">
-		<img src="image/parkinglot.jpeg" alt="Parking Lot">
-		<div class="header-text">
-			<marquee>"SG Parking Company"-The Most Convenient parking
-				at ATL downtown...</marquee>
-		</div>
-	</div>
-
+    </section>
+    
+    <section >
+        
+        <h2 class="grey-text htu" id="how-to-use">HOW TO USE</h2>
+        
+        <ul class="grey-text">
+            <li><span class="red">RED</span> -> Not Available</li>
+        <li><span class="yellow">ORANGE</span> -> Will Be Available Soon</li>
+        <li><span class="green">GREEN</span> -> Available</li>
+        </ul>
+    
+    </section>
+        
 	<!-- Page Container -->
 	<div class="content">
 		<!-- The Grid -->
@@ -38,34 +51,17 @@
 
 				<div class="floor-container" id="first-floor">
 					<div class="left-column-floor-desc">
-						<h2 class="grey-text">Floor 1</h2>
-						<ol>
-							<li>Graduate Teaching Assistant / Georgia State University
-								<p class="purple-text">2017 - Current</p>
-								<p>Assisting department faculty members and professors in
-									evaluating/ grading assignments, lab works, examinations or
-									papers.</p>
 
-							</li>
-							<li>Full Stack Developer / Tata Consultancy Services
-								<p class="purple-text">2011 - 2017</p>
-								<p>Worked as both front end and back end developer with
-									specialized knowledge in all the stages of software
-									development. Major responsibilities include Agile Couch, Team
-									lead, Requirements Elaboration, Design, Implementation, Testing
-									and Production warranty Support.</p>
-
-							</li>
-						</ol>
+                        <h2 class="grey-text f1">Floor 1</h2>
 					</div>
 					<div class="right-column-floor-map">
-
+                        
 
 						<table>
 
 
 							<tr>
-								<td class="left-parking-spot taken-spot">1101 <span
+								<td class="left-parking-spot taken-spot rad1">1101 <span
 									class="tooltiptext"> Free in 1 hour<br /> Parking Fee:
 										$10/day <br /> <br /> <a class="payment-button">Advance
 											Book</a>
@@ -74,7 +70,7 @@
 								<td class="drive-way" rowspan="9"> <img src="image/arrow-thick-down.png" alt="Arrow Down"></td>
 								<td class="divider" rowspan="9"></td>
 								<td class="drive-way" rowspan="9"><img src="image/arrow-thick-up.png" alt="Arrow Up"></td>
-								<td class="right-parking-spot free-spot">1122 <span
+								<td class="right-parking-spot free-spot rad2">1122 <span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span>
@@ -186,11 +182,11 @@
 								</span></td>
 							</tr>
 							<tr>
-								<td class="left-parking-spot free-spot">1111<span
+								<td class="left-parking-spot free-spot rad3">1111<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>
-								<td class="right-parking-spot free-spot">1112<span
+								<td class="right-parking-spot free-spot rad4">1112<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>
@@ -198,30 +194,15 @@
 
 						</table>
 					</div>
+                    
 					<div class="clear-both"></div>
 				</div>
+                
 
 				<div class="floor-container" id="second-floor">
 					<div class="left-column-floor-desc">
-						<h2 class="grey-text">Floor 2</h2>
-						<ol>
-							<li>Graduate Teaching Assistant / Georgia State University
-								<p class="purple-text">2017 - Current</p>
-								<p>Assisting department faculty members and professors in
-									evaluating/ grading assignments, lab works, examinations or
-									papers.</p>
-
-							</li>
-							<li>Full Stack Developer / Tata Consultancy Services
-								<p class="purple-text">2011 - 2017</p>
-								<p>Worked as both front end and back end developer with
-									specialized knowledge in all the stages of software
-									development. Major responsibilities include Agile Couch, Team
-									lead, Requirements Elaboration, Design, Implementation, Testing
-									and Production warranty Support.</p>
-
-							</li>
-						</ol>
+						<h2 class="grey-text f2">Floor 2</h2>
+						
 					</div>
 					<div class="right-column-floor-map">
 
@@ -230,16 +211,16 @@
 
 
 							<tr>
-								<td class="left-parking-spot taken-spot">2101 <span
+								<td class="left-parking-spot taken-spot rad1">2101 <span
 									class="tooltiptext"> Free in 1 hour<br /> Parking Fee:
 										$10/day <br /> <br /> <a class="payment-button">Advance
 											Book</a>
 								</span>
 								</td>
-								<td class="drive-way" rowspan="9"></td>
+								<td class="drive-way" rowspan="9"> <img src="image/arrow-thick-down.png" alt="Arrow Down"></td>
 								<td class="divider" rowspan="9"></td>
-								<td class="drive-way" rowspan="9"></td>
-								<td class="right-parking-spot free-spot">2122 <span
+								<td class="drive-way" rowspan="9"><img src="image/arrow-thick-up.png" alt="Arrow Up"></td>
+								<td class="right-parking-spot free-spot rad2">2122 <span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span>
@@ -343,7 +324,7 @@
 										$10/day <br /> <br /> <a class="payment-button">Advance
 											Book</a>
 								</span>2110</td>
-								<td colspan="3" rowspan="2" class="drive-way"></td>
+								<td colspan="3" rowspan="2" class="drive-way"><img class="height-50" src="image/arrow-thick-right.png" alt="Arrow Right"></td>
 								<td class="right-parking-spot to-be-free-spot">2113<span
 									class="tooltiptext"> Free in 10 minutes<br /> Parking
 										Fee: $10/day <br /> <br /> <a class="payment-button">Advance
@@ -351,11 +332,11 @@
 								</span></td>
 							</tr>
 							<tr>
-								<td class="left-parking-spot free-spot">2111<span
+								<td class="left-parking-spot free-spot rad3">2111<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>
-								<td class="right-parking-spot free-spot">2112<span
+								<td class="right-parking-spot free-spot rad4">2112<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>
@@ -368,25 +349,8 @@
 				</div>
 				<div class="floor-container" id="third-floor">
 					<div class="left-column-floor-desc">
-						<h2 class="grey-text">Floor 3</h2>
-						<ol>
-							<li>Graduate Teaching Assistant / Georgia State University
-								<p class="purple-text">2017 - Current</p>
-								<p>Assisting department faculty members and professors in
-									evaluating/ grading assignments, lab works, examinations or
-									papers.</p>
-
-							</li>
-							<li>Full Stack Developer / Tata Consultancy Services
-								<p class="purple-text">2011 - 2017</p>
-								<p>Worked as both front end and back end developer with
-									specialized knowledge in all the stages of software
-									development. Major responsibilities include Agile Couch, Team
-									lead, Requirements Elaboration, Design, Implementation, Testing
-									and Production warranty Support.</p>
-
-							</li>
-						</ol>
+						<h2 class="grey-text f3">Floor 3</h2>
+					
 					</div>
 					<div class="right-column-floor-map">
 
@@ -395,16 +359,16 @@
 
 
 							<tr>
-								<td class="left-parking-spot taken-spot">3101 <span
+								<td class="left-parking-spot taken-spot rad1">3101 <span
 									class="tooltiptext"> Free in 1 hour<br /> Parking Fee:
 										$10/day <br /> <br /> <a class="payment-button">Advance
 											Book</a>
 								</span>
 								</td>
-								<td class="drive-way" rowspan="9"></td>
+								<td class="drive-way" rowspan="9"><img src="image/arrow-thick-up.png" alt="Arrow Up"></td>
 								<td class="divider" rowspan="9"></td>
-								<td class="drive-way" rowspan="9"></td>
-								<td class="right-parking-spot free-spot">3122 <span
+								<td class="drive-way" rowspan="9"><img src="image/arrow-thick-up.png" alt="Arrow Up"></td>
+								<td class="right-parking-spot free-spot rad2">3122 <span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span>
@@ -508,7 +472,7 @@
 										$10/day <br /> <br /> <a class="payment-button">Advance
 											Book</a>
 								</span>3110</td>
-								<td colspan="3" rowspan="2" class="drive-way"></td>
+								<td colspan="3" rowspan="2" class="drive-way"><img class="height-50" src="image/arrow-thick-right.png" alt="Arrow Right"></td>
 								<td class="right-parking-spot to-be-free-spot">3113<span
 									class="tooltiptext"> Free in 10 minutes<br /> Parking
 										Fee: $10/day <br /> <br /> <a class="payment-button">Advance
@@ -516,11 +480,11 @@
 								</span></td>
 							</tr>
 							<tr>
-								<td class="left-parking-spot free-spot">3111<span
+								<td class="left-parking-spot free-spot rad3">3111<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>
-								<td class="right-parking-spot free-spot">3112<span
+								<td class="right-parking-spot free-spot rad4">3112<span
 									class="tooltiptext"> Parking Fee: $10/day <br /> <br />
 										<br /> <a class="payment-button">Book</a>
 								</span></td>

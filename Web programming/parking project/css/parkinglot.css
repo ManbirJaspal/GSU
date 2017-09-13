@@ -1,22 +1,65 @@
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
-	box-sizing: border-box
+    
+    color: #555;
+    font-family:'lato','Arial','sans-serif';
+    font-weight: 300;
+    background: #fff;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
 }
 
-*, *:before, *:after {
-	box-sizing: inherit
-}
-
-html, body {
-	font-size: 15px;
-	line-height: 1.5
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(parking.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   background-attachment: fixed;
+    
 }
 
 h1 {
-	font-size: 36px
+    color: aliceblue;
+    padding-top: 20%;
+  margin-top: 60px;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    animation: fadein 2s;
+    
+}
+h1:after {
+    display:block;
+    height: 2px;
+    background-color: #ff7800;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+section {
+    padding: 80px 0;
+
 }
 
 h2 {
-	font-size: 30px
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 h3 {
@@ -35,7 +78,7 @@ h6 {
 	font-size: 16px
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	margin: 10px 0
 }
@@ -46,9 +89,6 @@ hr {
 	margin: 20px 0
 }
 
-html, body, h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto", sans-serif
-}
 
 img {
 	width: 100%
@@ -60,6 +100,7 @@ img {
 
 
 table {
+    border-radius: 15px;
 	border-collapse: collapse;
 	margin-top: 2em;
 	margin-left: 20%;
@@ -69,6 +110,7 @@ table {
 	width: 60%;
 	box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 1px 2px 10px 0
 		rgba(0, 0, 0, 0.12)
+    
 }
 
 td {
@@ -82,6 +124,7 @@ td {
 	text-align: right;
 	color: #FFFFFF;
 	position: relative;
+    
 }
 
 .right-parking-spot .tooltiptext {
@@ -171,21 +214,21 @@ td {
 }
 
 .free-spot {
-	background-color: #23A817
+	background-color: #23A817;
 }
 
 .taken-spot {
-	background-color: #EA0909
+	background-color: #EA0909;
 }
 
 .to-be-free-spot {
-	background-color: #FF8300
+	background-color: #FF8300;
 }
 
 .header-style {
 	width: 90%;
 	max-width: 1400px;
-	margin-left: 5%
+	margin-left: 5%;
 }
 
 .header-text{
@@ -208,11 +251,11 @@ td {
 	letter-spacing: 6px;
 	padding: 20px 20px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
-		rgba(0, 0, 0, 0.12)
+		rgba(0, 0, 0, 0.12);
 }
 
 .right-float {
-	float: right
+	float: right;
 }
 
 .nav-link {
@@ -225,7 +268,7 @@ td {
 }
 
 .strong-text {
-	font-weight: bold
+	font-weight: bold;
 }
 
 .nav-link:hover {
@@ -244,12 +287,12 @@ td {
 }
 
 .clear-both {
-	clear: both
+	clear: both;
 }
 
 .body {
 	color: #000;
-	background-color: #f1f1f1
+	background-color: #f1f1f1;
 }
 
 .content {
@@ -263,14 +306,15 @@ td {
 
 .column {
 	float: left;
-	width: 100%
+	width: 100%;
 }
 
 .info-container {
-	padding: 0.01em 16px
+	padding: 0.01em 16px;
 }
 
 .floor-container {
+
 	padding: 4em 2em;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
 		rgba(0, 0, 0, 0.12);
@@ -280,7 +324,7 @@ td {
 }
 
 .grey-text {
-	color: #757575
+	color: #757575;
 }
 
 .payment-button {
@@ -292,4 +336,104 @@ td {
 	text-decoration: none;
 	margin: 4px 2px;
 	cursor: pointer;
+}
+
+tbody{
+    border: 0px;
+    border-radius: 15px;
+}
+.rad1{
+    
+    border-top-left-radius: 15px;
+}
+.rad2{
+    
+    border-top-right-radius: 15px;
+}
+.rad3{
+    
+    border-bottom-left-radius: 15px;
+}
+.rad4{
+    
+    border-bottom-right-radius: 15px;
+}
+
+.htu {
+    padding: 0;
+    margin-top: -160px;
+    font-size: 50px;
+}
+
+.htu:after {
+    display:block;
+    height: 2px;
+    background-color: #ff7800;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+ul{ 
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 4;
+    font-weight: 500;
+}
+.red{
+    
+    color: red;
+}
+
+.yellow{
+    color: orange;
+}
+
+.green{
+    
+    color: green;
+    
+}
+
+p {
+    padding-top: 20px;
+    font-size: 40px;
+    
+}
+
+.f1:after {
+    display:block;
+    height: 2px;
+    background-color: #ff7800;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.f2:after {
+    display:block;
+    height: 2px;
+    background-color: #ff7800;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.f3:after {
+    display:block;
+    height: 2px;
+    background-color: #ff7800;
+    content:" ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
 }
