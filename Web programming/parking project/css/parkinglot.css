@@ -10,9 +10,7 @@ html {
     font-family:'lato','Arial','sans-serif';
     font-weight: 300;
     background: #fff;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
-    
+    font-size: 20px;      
 }
 
 header {
@@ -129,7 +127,7 @@ td {
 
 .right-parking-spot .tooltiptext {
 	visibility: hidden;
-	width: 150px;
+	width: 180px;
 	background-color: black;
 	color: #fff;
 	text-align: center;
@@ -170,7 +168,7 @@ td {
 
 .left-parking-spot .tooltiptext {
 	visibility: hidden;
-	width: 150px;
+	width: 180px;
 	background-color: black;
 	color: #fff;
 	text-align: center;
@@ -208,9 +206,7 @@ td {
 }
 
 .divider {
-	width: 2%;
-	background-color: linear-gradient(#804000, #FFFFFF, #804000);
-	background: linear-gradient(#804000, #FFFFFF, #804000);
+	width: 2%;	
 }
 
 .free-spot {
@@ -278,12 +274,13 @@ td {
 
 .left-column-floor-desc {
 	float: left;
-	width: 50%;
+	width: 30%;
+	text-align: center;
 }
 
 .right-column-floor-map {
 	float: left;
-	width: 50%;
+	width: 70%;
 }
 
 .clear-both {
@@ -360,7 +357,7 @@ tbody{
 }
 
 .htu {
-    padding: 0;
+    padding-top: 2em;
     margin-top: -160px;
     font-size: 50px;
 }
@@ -375,14 +372,20 @@ tbody{
     margin-top: 30px;
 }
 
-ul{ 
+.ul-style{ 
     padding-top: 30px;
     text-align: center;
     font-size: 30px;
     letter-spacing: 1px;
-    line-height: 4;
+    line-height: 2;
     font-weight: 500;
 }
+
+.ol-style{   
+	padding-top: 30px;  
+    text-align: center;
+}
+
 .red{
     
     color: red;
@@ -399,9 +402,7 @@ ul{
 }
 
 p {
-    padding-top: 20px;
-    font-size: 40px;
-    
+    padding-top: 20px;        
 }
 
 .f1:after {
