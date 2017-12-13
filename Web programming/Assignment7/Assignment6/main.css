@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+p {
+    padding: 15px;
+}
+.employee-table {
+    width: 300px;
+    border: 2px solid #2b2b2b;
+    color: #2b2b2b;
+    border-collapse: collapse;
+    margin: 25px;
+}
+.employee-table th, .total-wages {
+    background-color: #7fb8e0;
+    border:1px solid whitesmoke;
+    font-weight: bolder;
+}
+.employee-table th, .employee-id {
+    text-align: center;
+}
+.total-wages, .employee-hours, .employee-wages {
+    text-align: right;
+}
+.employee-wages::before {
+    content: '$';
+}
+.employee-row:nth-of-type(even) {
+    background-color: #cfcffa;
+}
+.employee-table th, .employee-table td {
+    padding: 5px 7px;
+}
+#controls {
+    width: 300px;    
+    margin: 0px 25px;
+}
+#controls > button {
+    margin: 3px 5px;
+    padding: 3px 5px;
+}
+#controls > button:first-of-type {
+    margin-left: 0px;
+}
+#playerMessage, #inputHolder {
+    margin: 0 25px;
+}
+
+#gameHolder {
+    user-select: none;
+    cursor: pointer;
+}
+#gameHolder > table {
+    margin: 0 auto;
+}
+#gameOptions {
+    text-align: center;
+}
+.game-tile-cover {
+    display: block;
+    width:150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: #eee;
+}
+.game-tile-cell > .game-tile-cover {
+    opacity: 1;
+}
+.game-tile-cell.visible > .game-tile-cover {
+    opacity: 0;
+}
+
+
+
+.beach .image1 {
+    background-image: url('images/beach/image1.jpg');
+}
+.beach .image2 {
+    background-image: url('images/beach/image2.jpg');
+}
+.beach .image3 {
+    background-image: url('images/beach/image3.jpg');
+}
+.beach .image4 {
+    background-image: url('images/beach/image4.jpg');
+}
+.beach .image5 {
+    background-image: url('images/beach/image5.jpg');
+}
+.beach .image6 {
+    background-image: url('images/beach/image6.jpg');
+}
+.beach .image7 {
+    background-image: url('images/beach/image7.jpg');
+}
+.beach .image8 {
+    background-image: url('images/beach/image8.jpg');
+}
+.beach .image9 {
+    background-image: url('images/beach/image9.jpg');
+}
+.beach .image10 {
+    background-image: url('images/beach/image10.jpg');
+}
+.beach .image11 {
+    background-image: url('images/beach/image11.jpg');
+}
+.beach .image12 {
+    background-image: url('images/beach/image12.jpg');
+}
+
+.city .image1 {
+    background-image: url('images/city/image1.jpg');
+}
+.city .image2 {
+    background-image: url('images/city/image2.jpg');
+}
+.city .image3 {
+    background-image: url('images/city/image3.jpg');
+}
+.city .image4 {
+    background-image: url('images/city/image4.jpg');
+}
+.city .image5 {
+    background-image: url('images/city/image5.jpg');
+}
+.city .image6 {
+    background-image: url('images/city/image6.jpg');
+}
+.city .image7 {
+    background-image: url('images/city/image7.jpg');
+}
+.city .image8 {
+    background-image: url('images/city/image8.jpg');
+}
+.city .image9 {
+    background-image: url('images/city/image9.jpg');
+}
+.city .image10 {
+    background-image: url('images/city/image10.jpg');
+}
+.city .image11 {
+    background-image: url('images/city/image11.jpg');
+}
+.city .image12 {
+    background-image: url('images/city/image12.jpg');
+}
+
+
+.space .image1 {
+    background-image: url('images/space/image1.jpg');
+}
+.space .image2 {
+    background-image: url('images/space/image2.jpg');
+}
+.space .image3 {
+    background-image: url('images/space/image3.jpg');
+}
+.space .image4 {
+    background-image: url('images/space/image4.jpg');
+}
+.space .image5 {
+    background-image: url('images/space/image5.jpg');
+}
+.space .image6 {
+    background-image: url('images/space/image6.jpg');
+}
+.space .image7 {
+    background-image: url('images/space/image7.jpg');
+}
+.space .image8 {
+    background-image: url('images/space/image8.jpg');
+}
+.space .image9 {
+    background-image: url('images/space/image9.jpg');
+}
+.space .image10 {
+    background-image: url('images/space/image10.jpg');
+}
+.space .image11 {
+    background-image: url('images/space/image11.jpg');
+}
+.space .image12 {
+    background-image: url('images/space/image12.jpg');
+}

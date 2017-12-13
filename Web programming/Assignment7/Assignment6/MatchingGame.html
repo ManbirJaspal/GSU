@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 6 Part C</title>
+        <link href="main.css" rel="stylesheet" media="all" type="text/css" />
+        <script src="MatchingGame.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <main>
+            <header>Matching Game</header>
+            <p>
+                Match these elements.
+            </p>
+            <p style="text-align:center;">
+                Matches Remaining: <span id="matchCounter"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Time Elapsed: <span id="elapsedTime">00:00:00</span>
+            </p>
+            <div id="gameHolder">
+            </div>
+            <div id="gameOptions">
+                Difficulty: <select id="selectDifficulty">
+                    <option value="8">Easy</option>
+                    <option value="5">Medium</option>
+                    <option value="3" selected>Hard</option>
+                </select>
+                &nbsp;|&nbsp;
+                Theme: <select id="selectTheme">
+                    <option value="beach" selected>Beach</option>
+                    <option value="city">City</option>
+                    <option value="space">Space</option>
+                </select>
+                &nbsp;|&nbsp;
+                Size: <select id="selectSize">
+                    <option value="8" selected="selected">4x4 ( 8 Matches)</option>
+                    <option value="10">4x5 (10 Matches)</option>
+                    <option value="12">4x6 (12 Matches)</option>
+                </select>
+                &nbsp;|&nbsp;
+                <button id="btnNewGame">New Game</button>
+            </div>
+        </main>
+		
+		<h4> Click for <a href="Payroll.html"> Part A </a> </h4>
+		<h4> Click for <a href="GuessingGame.html"> Part B </a> </h4>
+		
+    </body>
+</html>
