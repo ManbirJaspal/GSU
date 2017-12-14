@@ -1,0 +1,75 @@
+/*Recipe Style
+*/
+body {
+	background-color: #FFCC00;
+	font-family: Georgia, Garamond, Serif; 
+}
+
+.navigation {
+	list-style-type: none; 
+	background-color: #A4A400;
+	border-right: 10px solid #003366; 
+	display: inline-block;
+	margin-left: 50px;
+	width: 105px; 
+
+}
+
+.navi {
+	padding: 10px; 
+	display: block;
+	color: #003366; 
+	text-decoration: none; 
+}
+
+
+
+
+.headings {
+	color: #A4A400;
+	background-color: #F0F0F0; 
+	text-align: center;
+	font-family: Verdana, 'Century Gothic', Sans-Serif; 
+}
+
+h3 {
+	text-align: left;
+}
+
+table {
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	margin-top: 20px; 
+}
+
+tr {
+	border: 2px white solid;
+	padding: 5px;
+}
+
+.table_title {
+	background-color: #F0F0F0; 
+	color: #A4A400; 
+	font-family: verdana; 
+	border: none;
+	padding: 0px;
+	font-weight: bold; 
+}
+
+th { 
+	background-color: #003366;
+	color: #FFFFFF; 
+	text-align: center;
+	border: 2px white solid;
+	padding: 5px;
+
+ }
+td {
+	color: #FFFFFF;
+	background-color: #CC9933;
+}
+
+span {
+	font-weight: bold; 
+}
+

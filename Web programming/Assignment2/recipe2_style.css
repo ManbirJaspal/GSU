@@ -1,0 +1,82 @@
+*{
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-family: cursive;
+    
+}
+
+
+body {
+	background-color: #e67e22;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.border {
+	border: 20px #555 solid;
+	background-color: #555;
+	font-family: Georgia, Garamond, Serif; 
+}
+
+.nav_bar {
+	list-style-type: none; 
+	background-color: #de8c07;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.navi {
+	padding: 10px; 
+	display: block;
+	color: #003366; 
+	text-decoration: none; 
+}
+
+
+.headings {
+	color: black;
+	background-color: #e67e22; 
+	text-align: center;
+	 
+}
+
+h3 {
+	text-align: left;
+	background-color: #e67e22; 
+	border: 1px solid black; 
+    
+}
+
+span {
+	font-weight: bold; 
+}
+
+
+
+
+#image_box {
+float: left;
+
+}
+
+#ingredients {
+float: left;
+}
+
+#directs {
+	clear: both;
+}
+
+.ingredients_list {
+	list-style-image: url('images/bullet.png'); 
+}
+
+.steps{
+    font-style: italic;
+    font-weight: 800;
+    color: crimson
+}
+
+li,p{ color:#e67e22 }
+
+
