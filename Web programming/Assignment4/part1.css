@@ -1,0 +1,32 @@
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.orange{
+	color: orange;
+}
+
+.timesNew{
+	font-family: times new roman;
+}
+
+.fant{
+    font-family: fantasy;
+}
+
+.curs{
+    font-family: cursive;
+}
+
+
+div .textarea{
+    box-shadow:  box-shadow: 10px 10px 5px grey;
+}
