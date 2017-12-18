@@ -1,0 +1,25 @@
+*{
+    
+    text-align: center;
+    align-content: center;
+    letter-spacing: 1px;
+
+}
+
+.error_msg{
+       color:red;
+       text-decoration:underline;
+} 
+
+body{
+background-color: aquamarine;
+    font-family: fantasy;
+    
+}
+
+table{
+    margin-left:550px;
+    border: 2px red
+        
+  
+}
