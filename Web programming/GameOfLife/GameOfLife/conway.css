@@ -1,0 +1,77 @@
+
+    header{
+    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-image: url(./vid/back_img.jpg);
+    height: 98.3vh;
+       background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+
+    
+}
+
+
+#conway-grid {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+	margin-bottom:5px !important;
+	width:350px;
+    height: 350px
+         
+}
+#conway-grid td {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #888888;
+    font-family: Tahoma;
+    font-size: 8px;
+    height: 12px;
+    line-height: 0.9;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 12px;
+}
+#conway-options {
+    font-family: "Tahoma";
+    font-size: 11px;
+    padding: 4px;
+}
+
+#conway-options #conwayPatterns {
+    height: 220px;
+}
+
+
+#conway-options label { display:inline; }
+
+#conway table { 
+    margin:0;
+
+}
+
+#conway .content-table { text-align:center; }
+
+#conway {
+    float:left; 
+    margin-left: 40%;
+    margin-top: 11%;
+
+}
+
+#generation{
+    color: white;
+    
+}
+
+#alivecell{
+    color:white; 
+}
